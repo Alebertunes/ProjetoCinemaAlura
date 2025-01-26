@@ -30,7 +30,7 @@ public class UsuarioService
 
         if (!resultado.Succeeded)
         {
-            throw new ApplicationException("Falaha ao cadastrar usuario!");
+            throw new ApplicationException("Falha ao cadastrar usuario!");
         }
 
     }
